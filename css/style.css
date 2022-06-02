@@ -1,0 +1,606 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 0 15px;
+  background: #9CF3F9;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+#header .header-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header-general__btn a {
+  padding: 0 30px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #252641;
+}
+#header .header-general__tat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header-general__tat button {
+  padding: 10px 40px;
+  border: 1px solid #3D5675;
+  background: #FEB101;
+  color: #FFFFFF;
+  font-size: 28px;
+  border-radius: 49px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#header .header-general__tat button:hover {
+  transform: scale(1.1);
+}
+
+#hero {
+  background: #9CF3F9;
+}
+#hero .hero-general {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+#hero .hero-general__asa h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 54px;
+  color: #B25A59;
+  margin-bottom: 40px;
+}
+#hero .hero-general__asa__ p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 160%;
+  color: #0C0C0C;
+}
+#hero .hero-general__asa button {
+  padding: 10px 20px;
+  border: 1px solid #3D5675;
+  background: #B25A59;
+  color: #FFFFFF;
+  font-size: 25px;
+  border-radius: 40px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#hero .hero-general__asa button:hover {
+  transform: scale(1.1);
+}
+#hero .hero-general__ava {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #252641;
+}
+#hero .hero-general__aza img {
+  padding: -50px 0;
+}
+#hero .hero-general__axa {
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  width: 300px;
+  height: 100px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-general h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #545567;
+}
+#hero .hero-general__ada {
+  position: absolute;
+  left: 600px;
+  top: 460px;
+  width: 400px;
+  height: 200px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hero .hero-general p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: #595959;
+  margin-bottom: 40px;
+}
+#hero .hero-general button1 {
+  position: absolute;
+  left: 200px;
+  top: 130px;
+  padding: 10px 30px;
+  border: 1px solid #3D5675;
+  background: #B25A59;
+  color: #FFFFFF;
+  font-size: 25px;
+  border-radius: 40px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#hero .hero-general button1:hover {
+  transform: scale(1.1);
+}
+
+#nave .nave-general__btn h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  color: #020202;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#nave .nave-general__btn p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #2C2D32;
+  margin-bottom: 60px;
+}
+#nave .nave-general__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#nave .nave-general__block h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #7F2736;
+  margin: 50px;
+}
+#nave .nave-general__block img {
+  border-radius: 10px;
+}
+
+#lorem .lorem-general__btn h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  text-align: center;
+  color: #7F2736;
+  margin-bottom: 50px;
+}
+#lorem .lorem-general p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #2C2D32;
+  margin: 40px;
+}
+#lorem .lorem-general__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#lorem .lorem-general__block h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.96);
+  text-align: center;
+  margin: -140px;
+}
+#lorem .lorem-general__block button {
+  padding: 16px 30px;
+  border: 1px solid #2C2D32;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  border-radius: 30px;
+  transition: 0.4s;
+  cursor: pointer;
+  margin: 160px 65px;
+}
+#lorem .lorem-general__block button:hover {
+  transform: scale(1.1);
+}
+
+#our .our-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#our .our-general__btn h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #7F2736;
+}
+#our .our-general__btn p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2C2D32;
+  margin-top: 90px;
+}
+#our .our-general h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #EE5060;
+  margin-top: 90px;
+}
+
+#choose .choose-general__block {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #7F2736;
+  text-align: center;
+  margin: 70px;
+}
+#choose .choose-general p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #2C2D32;
+  margin: 50px;
+}
+#choose .choose-general__gen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#choose .choose-general__afa {
+  width: 430px;
+  height: 410px;
+  background: #FFFFFF;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.47);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#choose .choose-general__ass {
+  width: 75px;
+  height: 75px;
+  background: #EE5060;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#choose .choose-general__asa {
+  width: 75px;
+  height: 75px;
+  background: #F0C53E;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+#choose .choose-general__axa {
+  width: 75px;
+  height: 75px;
+  background: #AF6C2C;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#what {
+  margin: 80px;
+}
+#what .what-general {
+  padding: 160px 0;
+}
+#what .what-general__block {
+  width: 70px;
+  height: 0;
+  background: #020202;
+  border: 1px solid #2C2D32;
+  margin-bottom: 50px;
+}
+#what .what-general p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2C2D32;
+  margin: -10px 80px;
+}
+#what .what-general__btn h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 60px;
+  color: #000000;
+}
+#what .what-general__btn p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  color: #2C2D32;
+  margin: 40px 0;
+}
+#what .what-general__btn button {
+  width: 403px;
+  height: 60px;
+  border: 1px solid #EE5060;
+  border-radius: 80px;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#what .what-general__btn button:hover {
+  transform: scale(1.1);
+}
+#what .what-general__nox {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #EE5060;
+  background: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+#what .what-general .swiper {
+  width: 372px;
+  height: 420px;
+  position: absolute;
+  left: 50%;
+  top: 460%;
+}
+#what .what-general .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+#what .what-general .swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+}
+#what .what-general .swiper-slide:nth-child(2n) {
+  background-color: rgb(0, 140, 255);
+}
+#what .what-general .swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+#what .what-general .swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+#what .what-general .swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+#what .what-general .swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+#what .what-general .swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+#what .what-general .swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+#what .what-general .swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+#what .what-general .swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
+#what .what-general__lorem p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  color: #2C2D32;
+}
+#what .what-general__lorem h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2C2D32;
+}
+#what .what-general__lorem h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #80819A;
+}
+#what .what-general__lor {
+  background: #EE5060;
+  box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
+  border-radius: 20px 0 0 20px;
+  width: 14px;
+  height: 280px;
+  position: absolute;
+  left: 51.1%;
+  top: 510%;
+}
+#what .what-general__lore {
+  width: 0;
+  background: #020202;
+  height: 120px;
+  border: 1px solid rgba(37, 36, 36, 0.56);
+  position: absolute;
+  left: 54%;
+  top: 517%;
+}
+#what .what-general__loree {
+  width: 600px;
+  height: 280px;
+  background: rgb(255, 255, 255);
+  box-shadow: 2px 4px 60px rgba(0, 0, 0, 0.96);
+  border-radius: 0 20px 20px 0;
+  position: absolute;
+  left: 52%;
+  top: 510%;
+}
+#what .what-general__lorem p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  color: #2C2D32;
+  margin: 80px 40px;
+}
+#what .what-general h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #2C2D32;
+  margin: -30px 40px;
+}
+#what .what-general h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #80819A;
+  position: absolute;
+  left: 67%;
+  top: 80%;
+}
+#what .what-general__banu img {
+  position: absolute;
+  left: 69%;
+  top: 70%;
+}
+
+#care {
+  background: #9CF3F9;
+}
+#care .care-general__block img {
+  margin: 50px 480px;
+}
+#care .care-general__block h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+  position: absolute;
+  left: 56%;
+  top: 557%;
+}
+#care .care-general__domes {
+  width: 0;
+  background: #020202;
+  height: 80px;
+  border: 1px solid rgba(37, 36, 36, 0.56);
+  position: absolute;
+  left: 52.5%;
+  top: 558%;
+}
+#care .care-general__get h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+  color: #000000;
+  margin: 20px;
+}
+#care .care-general__get input {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 0 20px;
+  outline: none;
+  position: absolute;
+  left: 35%;
+  top: 602%;
+}
+#care .care-general__get button {
+  background: linear-gradient(105.5deg, #B25A59 19.57%, #B25A59 78.85%);
+  border-radius: 60px;
+  border: 1px solid #EE5060;
+  color: rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  transition: 0.4s;
+  cursor: pointer;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  left: 55%;
+  top: 602%;
+}
+#care .care-general__get button:hover {
+  transform: scale(1.1);
+}
+#care .care-general__terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#care .care-general__terms a {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+  margin: 60px 0;
+}
+#care .care-general__term p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */

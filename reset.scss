@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@mixin asa {
+  padding: 10px 40px;
+  border: 1px solid #3D5675;
+  background: #FEB101;
+  color: #FFFFFF;
+  font-size: 28px;
+  border-radius: 49px;
+  transition: .4s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin aga {
+  padding: 10px 20px;
+  border: 1px solid #3D5675;
+  background: #B25A59;
+  color: #FFFFFF;
+  font-size: 25px;
+  border-radius: 40px;
+  transition: .4s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin afa {
+  position: absolute;
+  left: 200px;
+  top: 130px;
+  padding: 10px 30px;
+  border: 1px solid #3D5675;
+  background: #B25A59;
+  color: #FFFFFF;
+  font-size: 25px;
+  border-radius: 40px;
+  transition: .4s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin daa {
+  padding: 16px 30px;
+  border: 1px solid #2C2D32;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  border-radius: 30px;
+  transition: .4s;
+  cursor: pointer;
+  margin: 160px 65px;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin say{
+  width: 403px;
+  height: 60px;
+  border: 1px solid #EE5060;
+  border-radius: 80px;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  transition: .4s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@mixin your{
+  background: linear-gradient(105.5deg, #B25A59 19.57%, #B25A59 78.85%);
+  border-radius: 60px;
+  border: 1px solid #EE5060;
+  color: rgba(0, 0, 0, 0.37);
+  font-size: 15px;
+  transition: .4s;
+  cursor: pointer;
+  width: 160px;
+  height: 40px;
+  position: absolute;
+  left: 55%;
+  top: 602%;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+
